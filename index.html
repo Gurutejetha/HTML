@@ -1,131 +1,90 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>GuidingYou</title>
-    <link rel="icon" href="favicon.png">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio Landing Page</title>
+   <link href="https://tse2.mm.bing.net/th/id/OIP.NvB2ejF7-CyfaykkL5a_RAHaHa?pid=Api&P=0&h=180" rel="icon">
+  <link href="styling.css" rel="stylesheet">
 </head>
-<body style="font-family: Arial, sans-serif; margin: 0; padding: 0; background-color: #f9f9f9; color: #333;">
-
-<!-- Header -->
-<header style="background-color: orangered; color: white; padding: 20px; text-align: center;">
-    <h1 style="margin: 0;">Explore Maldives Now</h1>
-    <nav style="margin-top: 10px;">
-        <a href="#overview" style="color: white; margin: 0 10px; text-decoration: none;">Overview</a>
-        <a href="#attractions" style="color: white; margin: 0 10px; text-decoration: none;">Attractions</a>
-        <a href="#food" style="color: white; margin: 0 10px; text-decoration: none;">Food</a>
-        <a href="#gallery" style="color: white; margin: 0 10px; text-decoration: none;">Gallery</a>
-        <a href="#contact" style="color: white; margin: 0 10px; text-decoration: none;">Contact</a>
+<body>
+  <header>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li><img class="image" src="Photo.jpg"></li>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#project">Projects</a></li>
+        <li><a href="#intern">Internship</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
     </nav>
-</header>
-
-<!-- Overview -->
-<section id="overview" style="padding: 20px; text-align: center; background-color: #fff;">
-    <p style="max-width: 800px; margin: auto; font-size: 18px; line-height: 1.6;">
-        Discover the breathtaking beauty of the Maldives with our TravelGuide program! Explore crystal-clear waters, white sandy beaches, and luxurious resorts across 26 stunning coral atolls. Dive into vibrant reefs, relax in overwater villas, and experience paradise like never before.
-    </p>
-    <div style="margin: 15px 0;">
-        <a href="#attractions" style="padding: 10px 15px; background-color: orangered; color: white; text-decoration: none; border-radius: 5px; margin-right: 10px;">All Attractions</a>
-        <a href="https://www.visitmaldives.com" target="_blank" style="padding: 10px 15px; background-color: orangered; color: white; text-decoration: none; border-radius: 5px;">Official Tourism Site</a>
-    </div>
-    <img src="https://tse3.mm.bing.net/th/id/OIP.dVb6UjB8CNd2Ygwq7YCFyQHaE9?pid=Api&P=0&h=180" alt="Maldives" style="width: 90%; max-width: 800px; border-radius: 10px; margin-top: 20px;">
-</section>
-
-<!-- Attractions -->
-<section id="attractions" style="padding: 20px; background-color: #f0f0f0;">
-    <h2 style="text-align: center; color: orangered;">Top 5 Attractions</h2>
-    <ul style="max-width: 800px; margin: auto; line-height: 1.6;">
-        <li>
-            <strong>Grand Friday Mosque:</strong> Iconic architecture. Open 9:00 AM - 5:00 PM. Free entry. <em>Dress modestly.</em>
-        </li>
-        <li>
-            <strong>National Museum:</strong> Cultural heritage. Open 9:00 AM - 5:00 PM. Entry fee ₹250. <em>Good to combine with a walk in Sulthan Park.</em>
-        </li>
-        <li>
-            <strong>Artificial Beach:</strong> Urban relaxation. Open 6:00 AM - 10:00 PM. Free entry. <em>Evening times are cooler and colorful.</em>
-        </li>
-        <li>
-            <strong>Underwater Dining:</strong> Unique dining experience. Open 11:00 AM - 10:30 PM. Cost ₹13,500 per 4 people. <em>Ithaa Undersea Restaurant.</em>
-        </li>
-        <li>
-            <strong>HP Reef:</strong> Diving paradise. Open 6:00 AM - 4:00 PM. Cost ₹6,000. <em>Best visibility from December to May.</em>
-        </li>
-    </ul>
-</section>
-
-<!-- Food -->
-<section id="food" style="padding: 20px; background-color: #fff; text-align: center;">
-    <h2 style="color: orangered;">Must-Try Dishes</h2>
-    <table style="margin: auto; border: 1px solid #333; border-collapse: collapse; width: 90%; max-width: 800px;">
-        <thead>
-            <tr style="background-color: orangered; color: white;">
-                <th style="border: 1px solid #333; padding: 8px;">Dish</th>
-                <th style="border: 1px solid #333; padding: 8px;">Description</th>
-                <th style="border: 1px solid #333; padding: 8px;">Cost (INR)</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td style="border: 1px solid #333; padding: 8px;">Mas Huni</td>
-                <td style="border: 1px solid #333; padding: 8px;">Shredded smoked tuna mixed with grated coconut, onions & chilli; served with roshi.</td>
-                <td style="border: 1px solid #333; padding: 8px;">175 – 290</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #333; padding: 8px;">Garudhiya</td>
-                <td style="border: 1px solid #333; padding: 8px;">Fragrant fish broth with rice, lime, chilli & onions.</td>
-                <td style="border: 1px solid #333; padding: 8px;">235 – 470</td>
-            </tr>
-            <tr>
-                <td style="border: 1px solid #333; padding: 8px;">Saagu Bondibai</td>
-                <td style="border: 1px solid #333; padding: 8px;">Sweet dessert made with sago pearls, coconut milk, sugar & cardamom.</td>
-                <td style="border: 1px solid #333; padding: 8px;">175 – 290</td>
-            </tr>
-        </tbody>
-    </table>
-</section>
-
-<!-- Gallery -->
-<section id="gallery" style="padding: 20px; background-color: #f0f0f0; text-align: center;">
-    <h2 style="color: orangered; font-size: 32px; margin-bottom: 20px;">Gallery</h2>
-    <div style="display: flex; flex-wrap: wrap; justify-content: center; gap: 15px;">
-        <a href="https://maldivestourism.org/grand-friday-mosque/" target="_blank">
-            <img src="https://tse3.mm.bing.net/th/id/OIP.nxbgSIotNMT2k7WymIS-UAHaFD?pid=Api&P=0&h=180" 
-                 alt="Grand Friday Mosque" 
-                 title="Tap to know more" 
-                 style="width: 180px; height: 120px; border-radius: 10px; border: 2px solid #ccc;">
-        </a>
-        <a href="https://www.tripadvisor.in/Attractions-g293953-Activities-Maldives.html" target="_blank">
-            <img src="https://tse2.mm.bing.net/th/id/OIP.Qh4GA3vs5bb0_Q5uZ60c9QHaE8?pid=Api&P=0&h=180" 
-                 alt="National Museum" 
-                 title="Tap to know more" 
-                 style="width: 180px; height: 120px; border-radius: 10px; border: 2px solid #ccc;">
-        </a>
-        <a href="https://traveltriangle.com/blog/artificial-beach-maldives/" target="_blank">
-            <img src="https://tse2.mm.bing.net/th/id/OIP.rY4OCyq_KyDpomwO409E-gHaEO?pid=Api&P=0&h=180" 
-                 alt="Artificial Beach" 
-                 title="Tap to know more" 
-                 style="width: 180px; height: 120px; border-radius: 10px; border: 2px solid #ccc;">
-        </a>
-        <a href="https://www.mymaldives.com/things-to-do/underwater-restaurants/" target="_blank">
-            <img src="https://tse2.mm.bing.net/th/id/OIP._fprPD70EmEtEpCLYLcdawHaEJ?pid=Api&P=0&h=180" 
-                 alt="Underwater Dining" 
-                 title="Tap to know more" 
-                 style="width: 180px; height: 120px; border-radius: 10px; border: 2px solid #ccc;">
-        </a>
-        <a href="https://maldivestourism.org/hp-reef/" target="_blank">
-            <img src="https://tse4.mm.bing.net/th/id/OIP.ehJO5SalwXZrEqSvlgpM9AHaE8?pid=Api&P=0&h=180" 
-                 alt="HP Reef" 
-                 title="Tap to know more" 
-                 style="width: 180px; height: 120px; border-radius: 10px; border: 2px solid #ccc;">
-        </a>
-    </div>
-</section>
-
-
-<!-- Footer -->
-<footer style="padding: 20px; text-align: center; background-color: #222; color: white; margin-top: 20px;">
-    <p style="color: orangered;">©2025GuidingYou</p>
-</footer>
-
+    </header>
+  <section class="objective" id="home">
+      <h1 class="logo">Gurutejetha Boyanapalli</h1>
+      <h2>Career Objective</h2>
+      <div class="para">
+      <p>Enthusiastic and detail-oriented Computer Science graduate seeking an entry-level position in Web Development or MERN Stack Development. Skilled in building responsive and user-friendly web applications using MongoDB, Express.js, React.js, and Node.js, with a solid understanding of Java fundamentals. Eager to contribute to innovative projects, enhance user experience, and grow as a full-stack developer in a collaborative environment 🚀</p>
+      </div>
+  </section>
+  <section id="about">
+    <h2>🎓 Education</h2>
+    <div class="table">
+    <table class="tabledata">
+  <thead>
+    <tr>
+      <th>Degree</th>
+      <th>Institution</th>
+      <th>Duration</th>
+      <th>Result</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Bachelor of Technology (B.Tech) – Computer Science and Engineering</td>
+      <td>SIMATS Engineering, Chennai</td>
+      <td>July 2021 – July 2025</td>
+      <td>CGPA: 8.7</td>
+    </tr>
+    <tr>
+      <td>Intermediate (12th Standard)</td>
+      <td>Resonance Junior College, Khammam</td>
+      <td>June 2019 – June 2021</td>
+      <td>Marks: 926</td>
+    </tr>
+    <tr>
+      <td>Secondary School (10th Standard)</td>
+      <td>Olivia High School, Khammam</td>
+      <td>June 2018 – April 2019</td>
+      <td>GPA: 9.2</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+  </section>
+  <section id="project" class="project">
+      <h2>Project Details</h2>
+      <div class="para">
+      <p class="sub-title">A Novel Approach For Variable Bit Rate Optimization Using Deflate Algorithm over Fractional Compression Algorithm to Improve Efficiency.</p>
+      <p>Developed and implemented a system to optimize variable bit rate using the Deflate and Fractional Compression algorithms. Conducted a comparative analysis of both algorithms, demonstrating that the Deflate algorithm provides higher efficiency in terms of compression ratio. This project emphasized the practical application of advanced data compression techniques to enhance storage and transmission efficiency
+</p></div>
+  </section>
+  <section id="intern" class="intern">
+      <h2>Experience</h2>
+      <div class="para">
+      <p class="sub-title">Cognizant Technology Solutions</p>
+      <p>During my internship at Cognizant, I gained practical experience in full-stack web development with a focus on React.js for building responsive front-end applications. On the backend, I worked with Node.js and Express.js to create server-side logic and handled data using MongoDB with Mongoose. The internship provided hands-on exposure to agile development practices 
+</p>
+</div>
+  </section>
+    <section id="contact" class="contact">
+      <h2>Contact Me</h2>
+      <div class="para">
+        <p class="mail">gurutejetha@gmail.com</p>
+</div>
+  </section>
+  <footer>
+    <p>© 2025 Teju | All Rights Reserved</p>
+  </footer>
 </body>
 </html>
